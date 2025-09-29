@@ -1,0 +1,628 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "3D Portfolio",
+      "es": "Portfolio 3D"
+    },
+    "slug": "3d-portfolio",
+    "shortDescription": {
+      "en": "Interactive personal portfolio.",
+      "es": "Portfolio personal interactivo."
+    },
+    "longDescription": {
+      "en": "I wanted my portfolio to be more than a simple website, I wanted it to reflect my creativity and passion for interactive experiences. That’s why I decided to create a 3D environment where visitors can explore and discover my projects in a more engaging way. The process challenged me to combine design and development: I worked with optimized 3D models, animations, and performance techniques like lazy loading to make the experience smooth. Building this portfolio with React, Three.js, and TailwindCSS not only allowed me to showcase my work but also taught me how to balance aesthetics, interactivity, and technical efficiency. This project is both a personal experiment and a professional showcase of what I love doing.",
+      "es": "Quería que mi portfolio fuera algo más que una simple página web, quería que reflejara mi creatividad y mi pasión por las experiencias interactivas. Por eso decidí crear un entorno 3D donde los visitantes pudieran explorar y descubrir mis proyectos de una forma más atractiva. El proceso me desafió a combinar diseño y desarrollo: trabajé con modelos 3D optimizados, animaciones y técnicas de rendimiento como la carga diferida para que la experiencia fuera fluida. Construir este portfolio con React, Three.js y TailwindCSS no solo me permitió mostrar mis trabajos, sino que también me enseñó a equilibrar la estética, la interactividad y la eficiencia técnica. Este proyecto es tanto un experimento personal como una muestra profesional de lo que más me apasiona."
+    },
+    "tags": ["React", "Three.js", "Tailwind", "JavaScript"],
+    "mainImage": "https://placehold.co/400x300",
+    "category": "Web"
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "Hackathons",
+      "es": "Hackathones"
+    },
+    "slug": "hackathons",
+    "shortDescription": {
+      "en": "Platform for managing technology events",
+      "es": "Plataforma para la gestión de eventos tecnológicos"
+    },
+    "longDescription": {
+      "en": "This project was developed as a team for our bootcamp’s final assignment. It’s a full platform for managing hackathons, where users can register, sign up for events, rate them, and admins can create and manage events.\n\nMy role was mainly leading and coordinating the team, ensuring that all parts of the project came together smoothly. On the technical side, I designed and implemented the entire database, and was responsible for a large part of the backend logic and REST API endpoints that communicate with the frontend. I also carried out API testing with Postman to ensure reliability, and contributed to the React frontend, particularly in integrating with the API.\n\nThrough this project I gained deeper experience in data modeling, building robust APIs, and leading collaboration in a team setting, while applying agile methodologies and development best practices.",
+      "es": "Este proyecto fue desarrollado en equipo como trabajo final del bootcamp, y consistió en crear una plataforma completa de gestión de hackathones. La aplicación permite a los usuarios registrarse, inscribirse a eventos, evaluarlos, y a los administradores crear y gestionar dichos eventos.\n\nMi papel fue principalmente de liderazgo y coordinación, asegurándome de que las diferentes partes del proyecto encajaran de forma coherente. Técnicamente, me encargué de diseñar e implementar toda la base de datos, así como de una parte importante de la lógica del backend y los endpoints de la API REST que conectan con el frontend. Además, realicé testing de la API con Postman para garantizar la fiabilidad de las operaciones, y colaboré en el desarrollo del frontend en React, especialmente en la integración con la API.\n\nEste proyecto me permitió profundizar en el modelado de datos, la construcción de APIs robustas y la coordinación en un entorno de trabajo colaborativo, aplicando metodologías ágiles y buenas prácticas de desarrollo."
+    },
+    "techHighlights": [
+      {
+        "en": "Team leadership and coordination",
+        "es": "Liderazgo y coordinación del equipo"
+      },
+      {
+        "en": "Database design and implementation",
+        "es": "Diseño e implementación de la base de datos"
+      },
+      {
+        "en": "Backend logic and REST API development (Node.js / Express)",
+        "es": "Desarrollo de lógica y endpoints del backend (Node.js / Express)"
+      },
+      {
+        "en": "API testing with Postman",
+        "es": "Testing de la API con Postman"
+      },
+      {
+        "en": "Frontend development with React integration",
+        "es": "Desarrollo del frontend con integración en React"
+      }
+    ],
+    "links": [
+      {
+        "label": {
+          "en": "Backend GitHub Repository",
+          "es": "Repositorio de Backend en GitHub"
+        },
+        "url": "https://github.com/luciaSeo02/hackathones"
+      },
+      {
+        "label": {
+          "en": "Frontend GitHub Repository",
+          "es": "Repositorio de Frontend en GitHub"
+        },
+        "url": "https://github.com/luciaSeo02/hackathonesFront"
+      }
+    ],
+    "mainImage": "/assets/projects/hackathonPoster.png",
+    "media": [
+      {
+        "type": "video",
+        "src": "/assets/projects/hackathonWalkthrough.mp4",
+        "poster": "/assets/projects/hackathonPoster.png"
+      }
+    ],
+    "tags": ["React", "SQL", "Nodejs", "Tailwind", "JavaScript"],
+    "category": "Web"
+  },
+  {
+    "id": 3,
+    "title": {
+      "en": "Emojis Game",
+      "es": "Parejas de emojis"
+    },
+    "slug": "emoji-game",
+    "shortDescription": {
+      "en": "Interactive mind agility web game.",
+      "es": "Juego web interactivo de agilidad mental."
+    },
+    "longDescription": {
+      "en": [
+        "This project is an interactive memory and agility game, where players must find matching pairs of emoji cards before time runs out. It includes three difficulty levels (easy, medium, hard) and two game modes: Classic (find identical pairs) and Inverse (match opposite pairs).",
+        "Players enter their name to start, and the best five scores are automatically saved in a ranking, which can be reset at any time. The game also features a light/dark mode, with simple controls for desktop (mouse clicks) and mobile (touch screen).",
+        "This was developed in pure HTML, CSS, and JavaScript during the bootcamp. I led the group project, coordinating the workflow and ensuring that both functionality and user experience were achieved."
+      ],
+      "es": [
+        "Este proyecto es un juego interactivo de memoria y agilidad mental, donde los jugadores deben encontrar parejas de cartas de emojis antes de que se acabe el tiempo. Incluye tres niveles de dificultad (fácil, medio y difícil) y dos modos de juego: Clásico (encontrar parejas iguales) e Inverso (encontrar las parejas opuestas).",
+        "El jugador debe introducir su nombre para comenzar, y los cinco mejores puntajes se guardan automáticamente en un ranking, que se puede reiniciar en cualquier momento. El juego también cuenta con un modo claro/oscuro, con controles simples para ordenador (clics con el ratón) y móviles (toques en pantalla).",
+        "Fue desarrollado en HTML, CSS y JavaScript puros a mitad del bootcamp. Lideré el grupo en este proyecto, coordinando el flujo de trabajo y asegurando que se cumplieran tanto la funcionalidad como la experiencia de usuario."
+      ]
+    },
+    "techHighlights": [
+      {
+        "en": "Developed entirely with pure HTML, CSS, and JavaScript",
+        "es": "Desarrollado íntegramente con HTML, CSS y JavaScript puros"
+      },
+      {
+        "en": "Implemented light/dark mode for a customizable user experience",
+        "es": "Implementación de modo claro/oscuro para una experiencia personalizada"
+      },
+      {
+        "en": "Two game modes: Classic (matching pairs) and Inverse (opposite pairs)",
+        "es": "Dos modos de juego: Clásico (encontrar parejas iguales) e Inverso (encontrar parejas opuestas)"
+      },
+      {
+        "en": "Three difficulty levels with dynamic number of cards",
+        "es": "Tres niveles de dificultad con número dinámico de cartas"
+      },
+      {
+        "en": "Dynamic ranking of top 5 scores stored locally",
+        "es": "Ranking dinámico de los 5 mejores puntajes almacenados localmente"
+      },
+      {
+        "en": "Responsive design for desktop and mobile devices",
+        "es": "Diseño responsive para ordenadores y dispositivos móviles"
+      },
+      {
+        "en": "Team leadership and task coordination",
+        "es": "Liderazgo y coordinación del equipo"
+      }
+    ],
+
+    "links": [
+      {
+        "label": { "en": "GitHub Repository", "es": "Repositorio en GitHub" },
+        "url": "https://github.com/luciaSeo02/parejasemoji"
+      },
+      {
+        "label": { "en": "Live Demo", "es": "Demo en vivo" },
+        "url": "https://luciaseo02.github.io/parejasemoji/"
+      }
+    ],
+    "mainImage": "/assets/projects/parejasEmoji01.png",
+    "media": [
+      {
+        "type": "video",
+        "src": "/assets/projects/emojiWalkthrough.mp4",
+        "poster": "/assets/projects/parejasEmoji01.png"
+      }
+    ],
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "category": "Web"
+  },
+  {
+    "id": 4,
+    "title": {
+      "en": "ShinChan on 3D",
+      "es": "ShinChan en 3D"
+    },
+    "slug": "3d-shinchan",
+    "shortDescription": {
+      "en": "3D recreation of Shinchan’s world.",
+      "es": "Recreación en 3D del mundo de Shinchan."
+    },
+    "longDescription": {
+      "en": "This project was a personal challenge to bring the beloved world of ShinChan into 3D. For the characters, I used ZBrush for digital sculpting and Blender for retopology and texture painting, ensuring both artistic accuracy and clean geometry for animation. The environments were modeled directly in Blender, with a strong focus on stylized proportions and playful details faithful to the original series. I also worked on rigging and basic animations, as well as rendering and post-processing in DaVinci Resolve. This project helped me strengthen my full 3D workflow, from sculpting to final render, while combining nostalgia with technical execution.",
+      "es": "Este proyecto fue un reto personal para llevar el mundo de ShinChan al 3D. Para los personajes utilicé ZBrush en la fase de escultura digital y Blender para la retopología y el texture painting, asegurando tanto la fidelidad artística como una geometría limpia para la animación. Los escenarios fueron modelados directamente en Blender, con un enfoque en proporciones estilizadas y detalles divertidos fieles a la serie original. También trabajé en rigging y animaciones básicas, así como en el render y la postproducción en DaVinci Resolve. Este proyecto me permitió reforzar todo mi flujo de trabajo 3D, desde la escultura hasta el render final, uniendo nostalgia con ejecución técnica."
+    },
+    "techHighlights": [
+      {
+        "en": "Digital sculpting in ZBrush for character creation",
+        "es": "Escultura digital en ZBrush para la creación de personajes"
+      },
+      {
+        "en": "Retopology and texture painting in Blender",
+        "es": "Retopología y pintura de texturas en Blender"
+      },
+      {
+        "en": "Environment modeling and stylized proportions",
+        "es": "Modelado de escenarios y proporciones estilizadas"
+      },
+      {
+        "en": "Rigging and basic animations for characters",
+        "es": "Rigging y animaciones básicas para personajes"
+      },
+      {
+        "en": "Rendering and post-processing with DaVinci Resolve",
+        "es": "Render y postproducción con DaVinci Resolve"
+      }
+    ],
+    "mainImage": "/assets/projects/shinChan01.png",
+    "media": [
+      { "type": "image", "src": "/assets/projects/shinchanImg01.png" },
+      { "type": "image", "src": "/assets/projects/shinchanImg02.png" },
+      { "type": "image", "src": "/assets/projects/shinchanImg03.png" },
+      { "type": "image", "src": "/assets/projects/shinchanImg04.png" },
+      { "type": "image", "src": "/assets/projects/shinchanImg05.png" },
+      { "type": "image", "src": "/assets/projects/shinchanImg06.png" },
+      { "type": "image", "src": "/assets/projects/shinchanImg07.png" },
+      {
+        "type": "video",
+        "src": "/assets/projects/shinchanVideo01.mp4",
+        "poster": "/assets/projects/shinchanPoster01.png"
+      },
+      {
+        "type": "video",
+        "src": "/assets/projects/shinchanVideo02.mp4",
+        "poster": "/assets/projects/shinchanPoster02.png"
+      }
+    ],
+    "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop", "Zbrush"],
+    "category": "3D"
+  },
+  {
+    "id": 5,
+    "title": {
+      "en": "Bathroom set",
+      "es": "Set de baño"
+    },
+    "slug": "bathroom-set",
+    "shortDescription": {
+      "en": "Creation of a bathroom with props and textures.",
+      "es": "Creación de un baño con los props y texturas."
+    },
+    "longDescription": {
+      "en": "This project consisted of creating a complete 3D bathroom environment with detailed props and textures. All the modeling was done in Blender, focusing on clean topology and realistic proportions for objects such as the sink, mirror, bathtub, and accessories. I worked on creating and applying materials with Blender’s shader editor, combining procedural and image-based textures for a realistic finish. Lighting was carefully designed to simulate natural and artificial sources, enhancing reflections and surface details. Finally, the scene was rendered with Cycles and post-processed in DaVinci Resolve to achieve a polished final result.",
+      "es": "Este proyecto consistió en la creación de un entorno 3D completo de un baño con props y texturas detalladas. Todo el modelado se realizó en Blender, con un enfoque en topología limpia y proporciones realistas para objetos como el lavabo, el espejo, la bañera y los accesorios. Trabajé en la creación y aplicación de materiales con el editor de nodos de Blender, combinando texturas procedurales e imágenes para lograr un acabado realista. La iluminación fue diseñada cuidadosamente para simular fuentes naturales y artificiales, resaltando reflejos y detalles en las superficies. Finalmente, la escena fue renderizada con Cycles y postprocesada en DaVinci Resolve para obtener un resultado final pulido."
+    },
+    "techHighlights": [
+      {
+        "en": "Modeling of bathroom props with clean topology",
+        "es": "Modelado de props de baño con topología limpia"
+      },
+      {
+        "en": "Creation and application of shaders and textures",
+        "es": "Creación y aplicación de shaders y texturas"
+      },
+      {
+        "en": "Lighting design simulating natural and artificial sources",
+        "es": "Diseño de iluminación simulando fuentes naturales y artificiales"
+      },
+      {
+        "en": "Rendering with Cycles engine",
+        "es": "Renderizado con el motor Cycles"
+      },
+      {
+        "en": "Post-processing and color correction in DaVinci Resolve",
+        "es": "Postprocesado y corrección de color en DaVinci Resolve"
+      }
+    ],
+    "mainImage": "/assets/projects/bathroom01.png",
+    "media": [
+      { "type": "image", "src": "/assets/projects/bathroomImg01.png" },
+      { "type": "image", "src": "/assets/projects/bathroomImg02.png" },
+      { "type": "image", "src": "/assets/projects/bathroomImg03.png" },
+      { "type": "image", "src": "/assets/projects/bathroomImg04.png" },
+      { "type": "image", "src": "/assets/projects/bathroomImg05.png" },
+      { "type": "image", "src": "/assets/projects/bathroomImg06.png" },
+      { "type": "image", "src": "/assets/projects/bathroomImg07.png" }
+    ],
+    "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
+    "category": "3D"
+  },
+  {
+    "id": 6,
+    "title": {
+      "en": "Bedroom set",
+      "es": "Set de dormitorio"
+    },
+    "slug": "bedroom-set",
+    "shortDescription": {
+      "en": "Creation of a bedroom with props and textures.",
+      "es": "Creación de un dormitorio con los props y texturas."
+    },
+    "longDescription": {
+      "en": "Personal 3D environment project focused on interior design. This was my first attempt at creating an isometric bedroom, and instead of aiming for realism I chose a more stylized and playful approach. The scene was modeled and textured in Blender, experimenting with lighting, composition, and prop creation. As part of the project I also animated a timelapse sequence where the furniture and objects appear and arrange themselves into place, which gave the work a dynamic layer beyond a static render. The project helped me practice texturing, composition, and rendering techniques while exploring a different style of 3D presentation.",
+      "es": "Proyecto personal de entorno 3D centrado en el diseño interior. Este fue mi primer intento de crear una habitación isométrica y, en lugar de buscar realismo, opté por un enfoque más estilizado y juguetón. La escena fue modelada y texturizada en Blender, experimentando con iluminación, composición y creación de props. Como parte del proyecto también animé una secuencia tipo timelapse en la que los muebles y objetos van apareciendo y colocándose en su lugar, lo que aportó una capa dinámica más allá de un render estático. El proyecto me permitió practicar técnicas de texturizado, composición y renderizado, al mismo tiempo que exploraba un estilo diferente de presentación en 3D."
+    },
+    "techHighlights": [
+      {
+        "en": "First isometric environment project",
+        "es": "Primer proyecto de entorno isométrico"
+      },
+      {
+        "en": "Stylized bedroom design",
+        "es": "Diseño estilizado de habitación"
+      },
+      {
+        "en": "Animated timelapse of prop placement",
+        "es": "Animación en timelapse de colocación de objetos"
+      },
+      {
+        "en": "Lighting and composition practice",
+        "es": "Práctica de iluminación y composición"
+      },
+      {
+        "en": "Texturing and material creation",
+        "es": "Texturizado y creación de materiales"
+      },
+      {
+        "en": "Rendering and post-processing",
+        "es": "Renderizado y postprocesado"
+      }
+    ],
+    "mainImage": "/assets/projects/bedroom01.png",
+    "media": [
+      { "type": "image", "src": "/assets/projects/bedroomImg01.png" },
+      { "type": "image", "src": "/assets/projects/bedroomImg02.png" },
+      { "type": "image", "src": "/assets/projects/bedroomImg03.png" },
+      { "type": "image", "src": "/assets/projects/bedroomImg04.png" },
+      {
+        "type": "video",
+        "src": "/assets/projects/bedroomVideo.mp4",
+        "poster": "/assets/projects/bedroomPoster.png"
+      }
+    ],
+    "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
+    "category": "3D"
+  },
+  {
+    "id": 7,
+    "title": {
+      "en": "Supermarket Simulator",
+      "es": "Supermarket Simulator"
+    },
+    "slug": "supermarket-simulator",
+    "shortDescription": {
+      "en": "Recreation of the environment of the Supermarket Simulator videogame.",
+      "es": "Recreación del entorno del videojuego de Supermarket Simulator."
+    },
+    "longDescription": {
+      "en": "Personal 3D environment project inspired by the videogame Supermarket Simulator. My main focus was recreating the exterior of the supermarket and its surrounding environment, aiming for a realistic city-like atmosphere while keeping the models simple and optimized. Many buildings and structures were created with minimal geometry, relying on strong textures and details to convey depth and realism. The project was modeled and textured in Blender, experimenting with lighting, materials, and composition to achieve a balanced result between efficiency and visual impact.",
+      "es": "Proyecto personal de entorno 3D inspirado en el videojuego Supermarket Simulator. Mi principal objetivo fue recrear el exterior del supermercado y su entorno, buscando una atmósfera realista de estilo urbano pero manteniendo los modelos simples y optimizados. Muchos edificios y estructuras se realizaron con geometría mínima, aprovechando el uso de texturas y detalles para transmitir profundidad y realismo. El proyecto fue modelado y texturizado en Blender, experimentando con iluminación, materiales y composición para lograr un equilibrio entre eficiencia y calidad visual."
+    },
+    "techHighlights": [
+      {
+        "en": "Exterior supermarket environment recreation",
+        "es": "Recreación del entorno exterior del supermercado"
+      },
+      {
+        "en": "City-like atmosphere with optimized topology",
+        "es": "Atmósfera urbana con topología optimizada"
+      },
+      {
+        "en": "Low-poly modeling with texture-driven details",
+        "es": "Modelado low-poly con detalles basados en texturas"
+      },
+      {
+        "en": "Lighting and composition for urban scenes",
+        "es": "Iluminación y composición para escenas urbanas"
+      },
+      {
+        "en": "Efficient workflow balancing realism and simplicity",
+        "es": "Flujo de trabajo eficiente equilibrando realismo y simplicidad"
+      }
+    ],
+    "mainImage": "/assets/projects/superMarket01.png",
+    "media": [
+      { "type": "image", "src": "/assets/projects/superMarketImg01.png" },
+      { "type": "image", "src": "/assets/projects/superMarketImg02.png" },
+      { "type": "image", "src": "/assets/projects/superMarketImg03.png" },
+      { "type": "image", "src": "/assets/projects/superMarketImg04.png" },
+      { "type": "image", "src": "/assets/projects/superMarketImg05.png" }
+    ],
+    "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
+    "category": "3D"
+  },
+  {
+    "id": 8,
+    "title": {
+      "en": "Larapetas",
+      "es": "TFG Larapetas"
+    },
+    "slug": "larapetas",
+    "shortDescription": {
+      "en": "3D Galician character for social media.",
+      "es": "Personaje gallego 3D para las redes sociales."
+    },
+    "longDescription": {
+      "en": "Final Degree Project developed together with two classmates from my Digital Creation, Animation and Videogames degree. The project consisted of creating a 3D character, Larapetas, and launching an Instagram account where he would share videos to promote the Galician language and culture. Through short clips, Larapetas explained aspects of grammar, traditions, gastronomy, and local festivities, while also interacting with his friends Casimiro (a blind mole) and Linda (a cow referencing Galician beauty contests). \n\nMy role in the project was mainly focused on 3D modeling, rigging, technical supervision, and team coordination. I created the three main characters (Larapetas, Casimiro and Linda), modeled and rigged them, and also contributed with props, animations, sound design, and rendering. I acted as a leader, reviewing all models to ensure they were ready for the animation phase, and I also handled a large part of the rendering due to my workstation setup. \n\nThis project was recognized as the 'Best Final Degree Project with Galician theme' of the 2023–2024 academic year.",
+      "es": "Trabajo Fin de Grado desarrollado junto con dos compañeras de mi carrera de Creación Digital, Animación y Videojuegos. El proyecto consistía en la creación de un personaje 3D, Larapetas, y el lanzamiento de una cuenta de Instagram en la que compartía vídeos para promover la lengua y la cultura gallega. A través de clips cortos, Larapetas explicaba aspectos de gramática, tradiciones, gastronomía y fiestas populares, al mismo tiempo que interactuaba con sus amigos Casimiro (un topo ciego) y Linda (una vaca que hacía referencia a los concursos de belleza gallegos). \n\nMi papel en el proyecto se centró principalmente en el modelado 3D, rigging, supervisión técnica y coordinación del equipo. Creé a los tres personajes principales (Larapetas, Casimiro y Linda), los modelé y riggeé, y además realicé props, animaciones, diseño de sonido y renders. Actué como líder revisando todos los modelos para asegurar que estuvieran listos para la fase de animación, y también me encargué de gran parte de los renders gracias a mi equipo de trabajo. \n\nEste proyecto fue galardonado como el 'Mejor Trabajo de Fin de Grado de temática gallega' del curso 2023–2024."
+    },
+    "techHighlights": [
+      {
+        "en": "Main character modeling and rigging (Larapetas, Casimiro, Linda)",
+        "es": "Modelado y rigging de los personajes principales (Larapetas, Casimiro, Linda)"
+      },
+      {
+        "en": "Prop modeling and asset creation",
+        "es": "Modelado de props y creación de assets"
+      },
+      {
+        "en": "Animation and sound design contributions",
+        "es": "Contribuciones en animación y diseño de sonido"
+      },
+      {
+        "en": "Rendering and technical supervision",
+        "es": "Renderizado y supervisión técnica"
+      },
+      {
+        "en": "Awarded Best Galician-themed Final Degree Project",
+        "es": "Premiado como Mejor Trabajo de Fin de Grado de temática gallega"
+      }
+    ],
+    "mainImage": "/assets/projects/larapetas01.png",
+    "media": [
+      { "type": "image", "src": "/assets/projects/larapetasImg01.png" },
+      { "type": "image", "src": "/assets/projects/larapetasImg02.png" },
+      { "type": "image", "src": "/assets/projects/larapetasImg03.png" },
+      { "type": "image", "src": "/assets/projects/larapetasImg04.png" }
+    ],
+    "links": [
+      {
+        "label": { "en": "Instagram Larapetas", "es": "Instagram Larapetas" },
+        "url": "https://www.instagram.com/olarapetas/"
+      }
+    ],
+    "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop", "Instagram"],
+    "category": "3D"
+  },
+  {
+    "id": 9,
+    "title": {
+      "en": "Chinese New Year",
+      "es": "Año nuevo chino"
+    },
+    "slug": "chinese-ny",
+    "shortDescription": {
+      "en": "3D scene with fireworks celebrating Chinese New Year.",
+      "es": "Escena 3D con fuegos artificiales celebrando el Año Nuevo Chino."
+    },
+    "longDescription": {
+      "en": "Personal 3D project inspired by the celebration of Chinese New Year. The scene was designed as a festive nighttime environment, focusing on fireworks, lighting, and color to capture the cultural and celebratory spirit of the event. Beyond the particle systems used for the fireworks, the project also explored material creation, glowing effects, and reflections to enhance the vibrant atmosphere. This work allowed me to practice animation of visual effects, nighttime composition, and the use of post-production to intensify mood and storytelling.",
+      "es": "Proyecto personal en 3D inspirado en la celebración del Año Nuevo Chino. La escena fue diseñada como un entorno nocturno festivo, centrado en fuegos artificiales, iluminación y color para transmitir el espíritu cultural y de celebración del evento. Más allá de los sistemas de partículas para los fuegos artificiales, el proyecto también exploró la creación de materiales, efectos brillantes y reflejos para reforzar la atmósfera vibrante. Este trabajo me permitió practicar la animación de efectos visuales, la composición nocturna y el uso de la postproducción para intensificar la ambientación y la narrativa."
+    },
+    "techHighlights": [
+      {
+        "en": "Scene composition in Blender",
+        "es": "Composición de escenas en Blender"
+      },
+      {
+        "en": "Particle system for fireworks",
+        "es": "Sistema de partículas para fuegos artificiales"
+      },
+      {
+        "en": "Atmospheric lighting design",
+        "es": "Diseño de iluminación atmosférica"
+      },
+      {
+        "en": "Post-production in Davinci Resolve",
+        "es": "Postproducción en Davinci Resolve"
+      }
+    ],
+    "mainImage": "/assets/projects/chineseNY01.png",
+    "media": [
+      { "type": "image", "src": "/assets/projects/chineseNYImg01.png" },
+      { "type": "image", "src": "/assets/projects/chineseNYImg02.png" },
+      {
+        "type": "video",
+        "src": "/assets/projects/chineseNYVideo.mp4",
+        "poster": "/assets/projects/chineseNYPoster.png"
+      }
+    ],
+    "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
+    "category": "3D"
+  },
+  {
+    "id": 10,
+    "title": {
+      "en": "Christmas shorts",
+      "es": "Cortos de Navidad"
+    },
+    "slug": "christmas-shorts",
+    "shortDescription": {
+      "en": "Animated 3D Christmas-themed short scenes.",
+      "es": "Cortos animados en 3D con temática navideña."
+    },
+    "longDescription": {
+      "en": "Series of two short 3D animations with Christmas themes, each one experimenting with different techniques and storytelling approaches. In the first short, I created a character modeled partly in ZBrush, integrated with a 2D background through the use of green screen and compositing, giving the illusion of movement within a train scene. The second short focused on atmosphere: a snow globe environment animated with particle systems to simulate snowfall, combined with a camera animation that begins inside the globe and slowly transitions outward, enhancing the sense of wonder. Both pieces allowed me to explore character creation, compositing, and atmospheric animation while practicing short-form visual storytelling.",
+      "es": "Serie de dos cortos animados en 3D con temática navideña, cada uno experimentando con diferentes técnicas y enfoques narrativos. En el primer corto, creé un personaje modelado en parte en ZBrush, integrado con un fondo 2D mediante el uso de croma (green screen) y composición, lo que generó la ilusión de movimiento dentro de una escena en un tren. El segundo corto se centró en la atmósfera: un entorno de bola de nieve animado con sistemas de partículas para simular la nevada, combinado con una animación de cámara que comienza dentro de la bola y sale al exterior, reforzando la sensación de asombro. Ambos trabajos me permitieron explorar la creación de personajes, la composición y la animación atmosférica, además de practicar la narrativa visual en formato corto."
+    },
+    "techHighlights": [
+      {
+        "en": "Character creation in Blender and ZBrush",
+        "es": "Creación de personajes en Blender y ZBrush"
+      },
+      {
+        "en": "Green screen integration and 2D background compositing",
+        "es": "Integración con croma y composición con fondo 2D"
+      },
+      {
+        "en": "Particle system for snow simulation",
+        "es": "Sistema de partículas para simular nieve"
+      },
+      {
+        "en": "Camera animation inside a snow globe",
+        "es": "Animación de cámara dentro de una bola de nieve"
+      },
+      {
+        "en": "Editing and montage in Davinci Resolve",
+        "es": "Edición y montaje en Davinci Resolve"
+      }
+    ],
+    "mainImage": "/assets/projects/christmas01.png",
+    "media": [
+      { "type": "image", "src": "/assets/projects/christmasImg01.png" },
+      { "type": "image", "src": "/assets/projects/christmasImg02.png" },
+      { "type": "image", "src": "/assets/projects/christmasImg03.png" },
+      { "type": "image", "src": "/assets/projects/christmasImg04.png" },
+      { "type": "image", "src": "/assets/projects/christmasImg05.png" },
+      { "type": "image", "src": "/assets/projects/christmasImg06.png" },
+      { "type": "image", "src": "/assets/projects/christmasImg07.png" },
+      {
+        "type": "video",
+        "src": "/assets/projects/christmasVideo01.mp4",
+        "poster": "/assets/projects/christmasPoster01.png"
+      },
+      {
+        "type": "video",
+        "src": "/assets/projects/christmasVideo02.mp4",
+        "poster": "/assets/projects/christmasPoster02.png"
+      }
+    ],
+    "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop", "Zbrush"],
+    "category": "3D"
+  },
+  {
+    "id": 11,
+    "title": {
+      "en": "Halloween shop",
+      "es": "Tiendo da Halloween"
+    },
+    "slug": "halloween-shop",
+    "shortDescription": {
+      "en": "3D spooky shop environment for Halloween.",
+      "es": "Entorno 3D de una tienda temática de Halloween."
+    },
+    "longDescription": {
+      "en": "Halloween-themed 3D environment designed as a spooky yet cute food and drink stall. The shop is filled with themed props such as muffins, cakes, and boba, all stylized to match a playful horror aesthetic rather than realism. A ghost character runs the stall, serving as the centerpiece and adding narrative charm to the scene. The project focused on balancing atmosphere and storytelling through prop design, lighting, and composition, creating a space that feels both festive and mysterious.",
+      "es": "Entorno 3D de temática Halloween diseñado como un puesto de comida y bebida con un estilo tenebroso pero adorable. La tienda está llena de props temáticos como muffins, tartas y boba, todos estilizados para encajar en una estética de terror divertido en lugar de realismo. Un personaje fantasma es quien atiende el puesto, convirtiéndose en el centro de la escena y aportando un toque narrativo entrañable. El proyecto se centró en equilibrar atmósfera y narrativa a través del diseño de props, la iluminación y la composición, creando un espacio que resulta a la vez festivo y misterioso."
+    },
+    "techHighlights": [
+      {
+        "en": "Stylized prop modeling",
+        "es": "Modelado estilizado de props"
+      },
+      {
+        "en": "Ghost character as narrative centerpiece",
+        "es": "Personaje fantasma como eje narrativo"
+      },
+      {
+        "en": "Lighting for spooky yet playful atmosphere",
+        "es": "Iluminación para atmósfera tétrica pero divertida"
+      },
+      {
+        "en": "Texture painting for stylized materials",
+        "es": "Pintado de texturas para materiales estilizados"
+      },
+      {
+        "en": "Scene storytelling and composition",
+        "es": "Narrativa visual y composición de la escena"
+      }
+    ],
+    "mainImage": "/assets/projects/halloween01.png",
+    "media": [
+      { "type": "image", "src": "/assets/projects/halloweenImg01.png" },
+      { "type": "image", "src": "/assets/projects/halloweenImg02.png" },
+      { "type": "image", "src": "/assets/projects/halloweenImg03.png" },
+      { "type": "image", "src": "/assets/projects/halloweenImg04.png" },
+      { "type": "image", "src": "/assets/projects/halloweenImg05.png" }
+    ],
+    "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
+    "category": "3D"
+  },
+  {
+    "id": 12,
+    "title": {
+      "en": "Valentine's day",
+      "es": "San Valentín"
+    },
+    "slug": "valentines-day",
+    "shortDescription": {
+      "en": "3D romantic scene created for Valentine's Day.",
+      "es": "Escena romántica en 3D creada para San Valentín."
+    },
+    "longDescription": {
+      "en": "3D Valentine’s Day scene featuring a stylized picnic setting with two characters. The project focused on creating a warm and intimate mood through lighting, soft colors, and prop arrangement. Beyond modeling, I explored texture painting to enhance the materials and give detail to small elements. The scene combines character interaction with symbolic objects, designed to evoke a sense of tenderness and celebration.",
+      "es": "Escena en 3D de San Valentín que representa un picnic estilizado con dos personajes. El proyecto se centró en generar un ambiente cálido e íntimo mediante la iluminación, colores suaves y disposición de los props. Más allá del modelado, experimenté con texture painting para enriquecer los materiales y dar detalle a pequeños elementos. La escena combina la interacción de personajes con objetos simbólicos, diseñada para transmitir ternura y celebración."
+    },
+    "techHighlights": [
+      {
+        "en": "Character-based Valentine’s scene",
+        "es": "Escena de San Valentín con personajes"
+      },
+      {
+        "en": "Lighting design with warm tones",
+        "es": "Diseño de iluminación con tonos cálidos"
+      },
+      {
+        "en": "Texture painting for material detail",
+        "es": "Texture painting para detalle de materiales"
+      },
+      {
+        "en": "Prop creation with symbolic meaning",
+        "es": "Creación de props con significado simbólico"
+      },
+      {
+        "en": "Composition for emotional impact",
+        "es": "Composición para impacto emocional"
+      }
+    ],
+    "mainImage": "/assets/projects/valentines01.png",
+    "media": [
+      { "type": "image", "src": "/assets/projects/valentinesImg01.png" },
+      { "type": "image", "src": "/assets/projects/valentinesImg02.png" },
+      { "type": "image", "src": "/assets/projects/valentinesImg03.png" },
+      { "type": "image", "src": "/assets/projects/valentinesImg04.png" }
+    ],
+    "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
+    "category": "3D"
+  }
+]
