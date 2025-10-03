@@ -7,9 +7,11 @@ import {
   CheckCircle,
   XCircle,
 } from "lucide-react";
+import { useLang } from "../context/LangContext";
 
-export default function Contact({ lang = "en" }) {
+export default function Contact() {
   const [toast, setToast] = useState(null);
+  const { lang } = useLang();
 
   const texts = {
     en: {
@@ -65,7 +67,7 @@ export default function Contact({ lang = "en" }) {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center bg-gray-100 relative"
+      className="min-h-screen flex items-center justify-center bg-gray-100 relative mb-0"
     >
       {toast && (
         <div

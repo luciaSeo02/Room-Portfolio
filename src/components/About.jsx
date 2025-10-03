@@ -1,4 +1,7 @@
-export default function About({ lang = "en" }) {
+import { useLang } from "../context/LangContext";
+
+export default function About() {
+  const { lang } = useLang();
   const content = {
     en: {
       title: "About me",
@@ -15,19 +18,23 @@ export default function About({ lang = "en" }) {
         "JavaScript",
         "React",
         "Node.js",
+        "TailwindCSS",
+        "Three.js",
         "Python",
         "OpenGL",
         "SQL",
         "Git & GitHub",
         "3D Modeling (Blender, ZBrush)",
         "Animation",
+        "Unreal Engine",
+        "DaVinci Resolve",
       ],
     },
     es: {
       title: "Sobre mí",
       paragraphs: [
         "¡Hola! Soy Lucía, desarrolladora web fullstack y artista 3D de A Coruña.",
-        "Siempre me ha atraído el mundo digital y creativo, así que cuando apareció el Grado en Creación Digital (2020–24), no dudé en matricularme: era una carrera multidisciplinar que combinaba desde producción y dirección audiovisual hasta animación, 3D, programación y videojuegos.",
+        "Siempre me ha atraído el mundo digital y creativo, así que cuando apareció el Grado en Creación Digital, Animación y Videojuegos (2020–24), no dudé en matricularme: era una carrera multidisciplinar que combinaba desde producción y dirección audiovisual hasta animación, 3D, programación y videojuegos.",
         "Durante esos años descubrí que la parte que más me apasionaba era la programación. Aprendí conceptos como programación orientada a objetos, OpenGL, Python, Unreal Engine... con los que incluso llegué a crear pequeños videojuegos. También realicé prácticas que me permitieron aplicar lo aprendido en un entorno real.",
         "Al graduarme decidí profundizar en el desarrollo web, formándome en tecnologías como React, Node.js, bases de datos y control de versiones, con lo que consolidé un perfil fullstack.",
         "Además de lo académico, siempre me ha gustado crear. Comparto mis proyectos 3D en redes como Instagram, TikTok y YouTube, y disfruto explorando nuevas formas de expresión digital. También soy una apasionada de los videojuegos, tanto como jugadora como organizadora: cada año participo como voluntaria en la Euskal Encounter, colaborando en la gestión de torneos y actividades, lo que me ha dado experiencia en comunicación y trabajo en equipo.",
@@ -38,12 +45,16 @@ export default function About({ lang = "en" }) {
         "JavaScript",
         "React",
         "Node.js",
+        "TailwindCSS",
+        "Three.js",
         "Python",
         "OpenGL",
         "SQL",
         "Git & GitHub",
         "Modelado 3D (Blender, ZBrush)",
         "Animación",
+        "Unreal Engine",
+        "DaVinci Resolve",
       ],
     },
   };
@@ -51,19 +62,23 @@ export default function About({ lang = "en" }) {
   return (
     <section id="about" className="min-h-screen bg-gray-100 py-16">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="md:flex md:items-start md:gap-8">
-          <img
-            src="/assets/me.jpg"
-            alt="Lucía"
-            className="w-80 h-80 md:w-96 md:h-96 rounded-full object-cover shadow-lg 
-                       mb-6 md:mb-0 select-none pointer-events-none"
-            draggable="false"
-            onContextMenu={(e) => e.preventDefault()}
-          />
+        <div className="flex flex-col items-center md:flex-row md:items-start md:gap-12">
+          <div className="flex-shrink-0 mb-8 md:mb-0 md:mr-6">
+            <img
+              src="/assets/me2.jpg"
+              alt="Lucía"
+              className="w-60 h-60 md:w-80 md:h-80 rounded-full object-cover shadow-lg 
+                     select-none pointer-events-none"
+              draggable="false"
+              onContextMenu={(e) => e.preventDefault()}
+            />
+          </div>
 
-          <div className="max-w-prose">
-            <h3 className="text-3xl font-bold mb-6">{content[lang].title}</h3>
-            <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
+          <div className="md:flex-1 md:max-w-3xl">
+            <h3 className="text-3xl font-bold mb-6 text-center md:text-left">
+              {content[lang].title}
+            </h3>
+            <div className="space-y-4 text-gray-700 text-lg leading-relaxed text-justify md:text-left">
               {content[lang].paragraphs.map((p, i) => (
                 <p key={i}>{p}</p>
               ))}
@@ -72,10 +87,10 @@ export default function About({ lang = "en" }) {
         </div>
 
         <div className="mt-12">
-          <h4 className="text-2xl font-semibold mb-4">
+          <h4 className="text-2xl font-semibold mb-4 text-center md:text-left">
             {content[lang].skillsTitle}
           </h4>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 justify-center md:justify-start">
             {content[lang].skills.map((skill, i) => (
               <span
                 key={i}

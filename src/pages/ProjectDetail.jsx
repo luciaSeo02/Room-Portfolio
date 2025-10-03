@@ -4,10 +4,12 @@ import ProjectGallery from "../components/ProjectGallery";
 import { Link } from "lucide-react";
 import SocialLinks from "../components/SocialLinks";
 import ScrollToTop from "../components/ScrollToTop.jsx";
+import { useLang } from "../context/LangContext";
 
-export default function ProjectDetail({ lang = "en" }) {
+export default function ProjectDetail() {
   const { slug } = useParams();
   const project = projects.find((p) => p.slug === slug);
+  const { lang } = useLang();
 
   if (!project) {
     return <p className="text-center mt-10">Project not found</p>;

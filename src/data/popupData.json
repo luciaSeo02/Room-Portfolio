@@ -1,0 +1,76 @@
+{
+  "graduatedPoster": {
+    "en": {
+      "title": "Graduation",
+      "text": "I graduated in Digital Creation, Animation and Video Games at the University of A Coruña.",
+      "image": "/assets/graduationPoster.png",
+      "linkText": "Learn more about me",
+      "linkHref": "#about"
+    },
+    "es": {
+      "title": "Graduación",
+      "text": "Me gradué en Creación Digital, Animación y Videojuegos en la Universidad de A Coruña.",
+      "image": "/assets/graduationPoster.png",
+      "linkText": "Conoce más sobre mí",
+      "linkHref": "#about"
+    }
+  },
+  "igLogo": {
+    "en": {
+      "title": "Instagram",
+      "text": "Follow me on Instagram to see more of my work.",
+      "linkText": "Go to Instagram",
+      "linkHref": "https://instagram.com/loozziasart"
+    },
+    "es": {
+      "title": "Instagram",
+      "text": "Sígueme en Instagram para ver más de mi trabajo.",
+      "linkText": "Ir a Instagram",
+      "linkHref": "https://instagram.com/loozziasart"
+    }
+  },
+  "githubLogo001": {
+    "en": {
+      "title": "GitHub",
+      "text": "Check out my projects on GitHub.",
+      "linkText": "Go to GitHub",
+      "linkHref": "https://github.com/luciaSeo02"
+    },
+    "es": {
+      "title": "GitHub",
+      "text": "Explora mis proyectos en GitHub.",
+      "linkText": "Ir a GitHub",
+      "linkHref": "https://github.com/luciaSeo02"
+    }
+  },
+  "linkedinLogo": {
+    "en": {
+      "title": "LinkedIn",
+      "text": "Contact me on LinkedIn",
+      "linkText": "Go to LinkedIn",
+      "linkHref": "https:/www.linkedin.com/in/lucia-seo"
+    },
+    "es": {
+      "title": "LinkedIn",
+      "text": "Contactame en LinkedIn",
+      "linkText": "Ir a LinkedIn",
+      "linkHref": "https://www.linkedin.com/in/lucia-seo"
+    }
+  },
+  "posters": {
+    "en": {
+      "title": "3D Art",
+      "text": "During my studies I developed a strong interest in 3D art. I love creating and sharing my projects on social media, and here you can explore my 3D-related work.",
+      "image": "/assets/projects/shinChan01.png",
+      "linkText": "View 3D Projects",
+      "linkHref": "#projects"
+    },
+    "es": {
+      "title": "Arte 3D",
+      "text": "Durante mis estudios descubrí mi pasión por el arte 3D. Me encanta crear y compartir mis proyectos en redes sociales, y aquí puedes ver mi trabajo relacionado con 3D.",
+      "image": "/assets/projects/shinChan01.png",
+      "linkText": "Ver Proyectos 3D",
+      "linkHref": "#projects"
+    }
+  }
+}

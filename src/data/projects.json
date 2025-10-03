@@ -11,11 +11,56 @@
       "es": "Portfolio personal interactivo."
     },
     "longDescription": {
-      "en": "I wanted my portfolio to be more than a simple website, I wanted it to reflect my creativity and passion for interactive experiences. That’s why I decided to create a 3D environment where visitors can explore and discover my projects in a more engaging way. The process challenged me to combine design and development: I worked with optimized 3D models, animations, and performance techniques like lazy loading to make the experience smooth. Building this portfolio with React, Three.js, and TailwindCSS not only allowed me to showcase my work but also taught me how to balance aesthetics, interactivity, and technical efficiency. This project is both a personal experiment and a professional showcase of what I love doing.",
-      "es": "Quería que mi portfolio fuera algo más que una simple página web, quería que reflejara mi creatividad y mi pasión por las experiencias interactivas. Por eso decidí crear un entorno 3D donde los visitantes pudieran explorar y descubrir mis proyectos de una forma más atractiva. El proceso me desafió a combinar diseño y desarrollo: trabajé con modelos 3D optimizados, animaciones y técnicas de rendimiento como la carga diferida para que la experiencia fuera fluida. Construir este portfolio con React, Three.js y TailwindCSS no solo me permitió mostrar mis trabajos, sino que también me enseñó a equilibrar la estética, la interactividad y la eficiencia técnica. Este proyecto es tanto un experimento personal como una muestra profesional de lo que más me apasiona."
+      "en": "I wanted my portfolio to be more than a simple website, I wanted it to reflect my creativity and passion for interactive experiences. That’s why I decided to create a 3D environment where visitors can explore and discover my projects in a more engaging way. The process challenged me to combine design and development: I worked with optimized 3D models and Three.js rendering while keeping performance in mind. \n\nI also designed the architecture so the site can grow easily: adding new projects, categories, or features only requires updating the data instead of rewriting code. This makes the portfolio flexible and future-proof, so I can keep improving it as I learn new technologies and build more projects. \n\nIt is still a work in progress, but I see it as both a personal experiment and a professional showcase of what I love doing.",
+      "es": "Quería que mi portfolio fuera algo más que una simple página web, quería que reflejara mi creatividad y mi pasión por las experiencias interactivas. Por eso decidí crear un entorno 3D donde los visitantes pudieran explorar y descubrir mis proyectos de una forma más atractiva. El proceso me desafió a combinar diseño y desarrollo: trabajé con modelos 3D optimizados y renderizado con Three.js teniendo en cuenta el rendimiento. \n\nTambién diseñé la arquitectura de forma que el sitio pueda crecer fácilmente: añadir nuevos proyectos, categorías u opciones solo requiere actualizar los datos en vez de reescribir el código. Esto hace que el portfolio sea flexible y preparado para el futuro, para poder seguir mejorándolo a medida que aprenda nuevas tecnologías y desarrolle más proyectos. \n\nAún está en proceso, pero lo considero tanto un experimento personal como una muestra profesional de lo que más me apasiona."
     },
     "tags": ["React", "Three.js", "Tailwind", "JavaScript"],
-    "mainImage": "https://placehold.co/400x300",
+    "techHighlights": [
+      {
+        "en": "Built with React, Three.js and TailwindCSS",
+        "es": "Desarrollado con React, Three.js y TailwindCSS"
+      },
+      {
+        "en": "3D models rendered with Three.js",
+        "es": "Modelos 3D renderizados con Three.js"
+      },
+      {
+        "en": "Performance-aware design with lazy loading",
+        "es": "Diseño optimizado con carga diferida"
+      },
+      {
+        "en": "Scalable architecture for easy content updates",
+        "es": "Arquitectura escalable para actualizaciones sencillas de contenido"
+      },
+      {
+        "en": "Ongoing project, continuously evolving",
+        "es": "Proyecto en curso, en constante evolución"
+      }
+    ],
+    "links": [
+      {
+        "label": {
+          "en": "GitHub Repository",
+          "es": "Repositorio en GitHub"
+        },
+        "url": "https://github.com/luciaSeo02/Room-Portfolio"
+      }
+    ],
+    "mainImage": "/og-image.png",
+    "media": [
+      {
+        "type": "image",
+        "src": "/assets/projects/portfolioImg02.png"
+      },
+      {
+        "type": "image",
+        "src": "/assets/projects/portfolioImg01.png"
+      },
+      {
+        "type": "image",
+        "src": "/assets/projects/portfolioImg03.png"
+      }
+    ],
     "category": "Web"
   },
   {

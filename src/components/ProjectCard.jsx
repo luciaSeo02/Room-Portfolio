@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-
+import { useLang } from "../context/LangContext";
 export default function ProjectCard({
   slug,
   title,
   shortDescription,
   mainImage,
   tags,
-  lang,
 }) {
+  const { lang } = useLang();
   return (
     <Link to={`/projects/${slug}`}>
       <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">

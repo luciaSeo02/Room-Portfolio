@@ -6,29 +6,32 @@ import Header from "./components/Header.jsx";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects.jsx";
 import ProjectDetail from "./pages/ProjectDetail.jsx";
+import { LangProvider } from "./context/LangContext";
 
 function App() {
   return (
     <>
-      <Header />
+      <LangProvider>
+        <Header />
 
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Hero />
-              <About />
-              <Projects />
-              <Contact />
-            </>
-          }
-        />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <About />
+                <Projects />
+                <Contact />
+              </>
+            }
+          />
 
-        <Route path="/projects/:slug" element={<ProjectDetail />} />
-      </Routes>
+          <Route path="/projects/:slug" element={<ProjectDetail />} />
+        </Routes>
 
-      <Footer />
+        <Footer />
+      </LangProvider>
     </>
   );
 }

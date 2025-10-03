@@ -5,7 +5,7 @@ import { MyModel } from "./MyModel";
 import { Background } from "./Background";
 import { Loader } from "@react-three/drei";
 
-export default function ThreeScene({ active3D }) {
+export default function ThreeScene({ active3D, onObjectClick }) {
   return (
     <>
       <Canvas
@@ -21,9 +21,11 @@ export default function ThreeScene({ active3D }) {
             position={[0, -1.6, 0]}
             rotation={[0, -Math.PI / 4, 0]}
             active3D={active3D}
+            onObjectClick={onObjectClick}
           />
         </Suspense>
         <OrbitControls
+          enablePan={false}
           enableZoom={true}
           minDistance={2}
           maxDistance={8}
