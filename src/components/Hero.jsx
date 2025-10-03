@@ -14,8 +14,8 @@ export default function Hero() {
 
   const hour = new Date().getHours();
   const isDay = hour >= 7 && hour < 19;
-  const posterDay = "/assets/renderDay02.png";
-  const posterNight = "/assets/renderNight02.png";
+  const posterDay = "assets/renderDay02.png";
+  const posterNight = "assets/renderNight02.png";
   const poster = isDay ? posterDay : posterNight;
 
   const labels = {

@@ -46,19 +46,19 @@
         "url": "https://github.com/luciaSeo02/Room-Portfolio"
       }
     ],
-    "mainImage": "/og-image.png",
+    "mainImage": "og-image.png",
     "media": [
       {
         "type": "image",
-        "src": "/assets/projects/portfolioImg02.png"
+        "src": "assets/projects/portfolioImg02.png"
       },
       {
         "type": "image",
-        "src": "/assets/projects/portfolioImg01.png"
+        "src": "assets/projects/portfolioImg01.png"
       },
       {
         "type": "image",
-        "src": "/assets/projects/portfolioImg03.png"
+        "src": "assets/projects/portfolioImg03.png"
       }
     ],
     "category": "Web"
@@ -116,7 +116,7 @@
         "url": "https://github.com/luciaSeo02/hackathonesFront"
       }
     ],
-    "mainImage": "/assets/projects/hackathonPoster.png",
+    "mainImage": "assets/projects/hackathonPoster.png",
     "media": [
       {
         "type": "video",
@@ -191,7 +191,7 @@
         "url": "https://luciaseo02.github.io/parejasemoji/"
       }
     ],
-    "mainImage": "/assets/projects/parejasEmoji01.png",
+    "mainImage": "assets/projects/parejasEmoji01.png",
     "media": [
       {
         "type": "video",
@@ -239,24 +239,24 @@
         "es": "Render y postproducción con DaVinci Resolve"
       }
     ],
-    "mainImage": "/assets/projects/shinChan01.png",
+    "mainImage": "assets/projects/shinChan01.png",
     "media": [
-      { "type": "image", "src": "/assets/projects/shinchanImg01.png" },
-      { "type": "image", "src": "/assets/projects/shinchanImg02.png" },
-      { "type": "image", "src": "/assets/projects/shinchanImg03.png" },
-      { "type": "image", "src": "/assets/projects/shinchanImg04.png" },
-      { "type": "image", "src": "/assets/projects/shinchanImg05.png" },
-      { "type": "image", "src": "/assets/projects/shinchanImg06.png" },
-      { "type": "image", "src": "/assets/projects/shinchanImg07.png" },
+      { "type": "image", "src": "assets/projects/shinchanImg01.png" },
+      { "type": "image", "src": "assets/projects/shinchanImg02.png" },
+      { "type": "image", "src": "assets/projects/shinchanImg03.png" },
+      { "type": "image", "src": "assets/projects/shinchanImg04.png" },
+      { "type": "image", "src": "assets/projects/shinchanImg05.png" },
+      { "type": "image", "src": "assets/projects/shinchanImg06.png" },
+      { "type": "image", "src": "assets/projects/shinchanImg07.png" },
       {
         "type": "video",
-        "src": "/assets/projects/shinchanVideo01.mp4",
-        "poster": "/assets/projects/shinchanPoster01.png"
+        "src": "assets/projects/shinchanVideo01.mp4",
+        "poster": "assets/projects/shinchanPoster01.png"
       },
       {
         "type": "video",
-        "src": "/assets/projects/shinchanVideo02.mp4",
-        "poster": "/assets/projects/shinchanPoster02.png"
+        "src": "assets/projects/shinchanVideo02.mp4",
+        "poster": "assets/projects/shinchanPoster02.png"
       }
     ],
     "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop", "Zbrush"],
@@ -299,15 +299,15 @@
         "es": "Postprocesado y corrección de color en DaVinci Resolve"
       }
     ],
-    "mainImage": "/assets/projects/bathroom01.png",
+    "mainImage": "assets/projects/bathroom01.png",
     "media": [
-      { "type": "image", "src": "/assets/projects/bathroomImg01.png" },
-      { "type": "image", "src": "/assets/projects/bathroomImg02.png" },
-      { "type": "image", "src": "/assets/projects/bathroomImg03.png" },
-      { "type": "image", "src": "/assets/projects/bathroomImg04.png" },
-      { "type": "image", "src": "/assets/projects/bathroomImg05.png" },
-      { "type": "image", "src": "/assets/projects/bathroomImg06.png" },
-      { "type": "image", "src": "/assets/projects/bathroomImg07.png" }
+      { "type": "image", "src": "assets/projects/bathroomImg01.png" },
+      { "type": "image", "src": "assets/projects/bathroomImg02.png" },
+      { "type": "image", "src": "assets/projects/bathroomImg03.png" },
+      { "type": "image", "src": "assets/projects/bathroomImg04.png" },
+      { "type": "image", "src": "assets/projects/bathroomImg05.png" },
+      { "type": "image", "src": "assets/projects/bathroomImg06.png" },
+      { "type": "image", "src": "assets/projects/bathroomImg07.png" }
     ],
     "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
     "category": "3D"
@@ -353,16 +353,16 @@
         "es": "Renderizado y postprocesado"
       }
     ],
-    "mainImage": "/assets/projects/bedroom01.png",
+    "mainImage": "assets/projects/bedroom01.png",
     "media": [
-      { "type": "image", "src": "/assets/projects/bedroomImg01.png" },
-      { "type": "image", "src": "/assets/projects/bedroomImg02.png" },
-      { "type": "image", "src": "/assets/projects/bedroomImg03.png" },
-      { "type": "image", "src": "/assets/projects/bedroomImg04.png" },
+      { "type": "image", "src": "assets/projects/bedroomImg01.png" },
+      { "type": "image", "src": "assets/projects/bedroomImg02.png" },
+      { "type": "image", "src": "assets/projects/bedroomImg03.png" },
+      { "type": "image", "src": "assets/projects/bedroomImg04.png" },
       {
         "type": "video",
-        "src": "/assets/projects/bedroomVideo.mp4",
-        "poster": "/assets/projects/bedroomPoster.png"
+        "src": "assets/projects/bedroomVideo.mp4",
+        "poster": "assets/projects/bedroomPoster.png"
       }
     ],
     "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
@@ -405,13 +405,13 @@
         "es": "Flujo de trabajo eficiente equilibrando realismo y simplicidad"
       }
     ],
-    "mainImage": "/assets/projects/superMarket01.png",
+    "mainImage": "assets/projects/superMarket01.png",
     "media": [
-      { "type": "image", "src": "/assets/projects/superMarketImg01.png" },
-      { "type": "image", "src": "/assets/projects/superMarketImg02.png" },
-      { "type": "image", "src": "/assets/projects/superMarketImg03.png" },
-      { "type": "image", "src": "/assets/projects/superMarketImg04.png" },
-      { "type": "image", "src": "/assets/projects/superMarketImg05.png" }
+      { "type": "image", "src": "assets/projects/superMarketImg01.png" },
+      { "type": "image", "src": "assets/projects/superMarketImg02.png" },
+      { "type": "image", "src": "assets/projects/superMarketImg03.png" },
+      { "type": "image", "src": "assets/projects/superMarketImg04.png" },
+      { "type": "image", "src": "assets/projects/superMarketImg05.png" }
     ],
     "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
     "category": "3D"
@@ -453,12 +453,12 @@
         "es": "Premiado como Mejor Trabajo de Fin de Grado de temática gallega"
       }
     ],
-    "mainImage": "/assets/projects/larapetas01.png",
+    "mainImage": "assets/projects/larapetas01.png",
     "media": [
-      { "type": "image", "src": "/assets/projects/larapetasImg01.png" },
-      { "type": "image", "src": "/assets/projects/larapetasImg02.png" },
-      { "type": "image", "src": "/assets/projects/larapetasImg03.png" },
-      { "type": "image", "src": "/assets/projects/larapetasImg04.png" }
+      { "type": "image", "src": "assets/projects/larapetasImg01.png" },
+      { "type": "image", "src": "assets/projects/larapetasImg02.png" },
+      { "type": "image", "src": "assets/projects/larapetasImg03.png" },
+      { "type": "image", "src": "assets/projects/larapetasImg04.png" }
     ],
     "links": [
       {
@@ -502,14 +502,14 @@
         "es": "Postproducción en Davinci Resolve"
       }
     ],
-    "mainImage": "/assets/projects/chineseNY01.png",
+    "mainImage": "assets/projects/chineseNY01.png",
     "media": [
-      { "type": "image", "src": "/assets/projects/chineseNYImg01.png" },
-      { "type": "image", "src": "/assets/projects/chineseNYImg02.png" },
+      { "type": "image", "src": "assets/projects/chineseNYImg01.png" },
+      { "type": "image", "src": "assets/projects/chineseNYImg02.png" },
       {
         "type": "video",
-        "src": "/assets/projects/chineseNYVideo.mp4",
-        "poster": "/assets/projects/chineseNYPoster.png"
+        "src": "assets/projects/chineseNYVideo.mp4",
+        "poster": "assets/projects/chineseNYPoster.png"
       }
     ],
     "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
@@ -552,24 +552,24 @@
         "es": "Edición y montaje en Davinci Resolve"
       }
     ],
-    "mainImage": "/assets/projects/christmas01.png",
+    "mainImage": "assets/projects/christmas01.png",
     "media": [
-      { "type": "image", "src": "/assets/projects/christmasImg01.png" },
-      { "type": "image", "src": "/assets/projects/christmasImg02.png" },
-      { "type": "image", "src": "/assets/projects/christmasImg03.png" },
-      { "type": "image", "src": "/assets/projects/christmasImg04.png" },
-      { "type": "image", "src": "/assets/projects/christmasImg05.png" },
-      { "type": "image", "src": "/assets/projects/christmasImg06.png" },
-      { "type": "image", "src": "/assets/projects/christmasImg07.png" },
+      { "type": "image", "src": "assets/projects/christmasImg01.png" },
+      { "type": "image", "src": "assets/projects/christmasImg02.png" },
+      { "type": "image", "src": "assets/projects/christmasImg03.png" },
+      { "type": "image", "src": "assets/projects/christmasImg04.png" },
+      { "type": "image", "src": "assets/projects/christmasImg05.png" },
+      { "type": "image", "src": "assets/projects/christmasImg06.png" },
+      { "type": "image", "src": "assets/projects/christmasImg07.png" },
       {
         "type": "video",
-        "src": "/assets/projects/christmasVideo01.mp4",
-        "poster": "/assets/projects/christmasPoster01.png"
+        "src": "assets/projects/christmasVideo01.mp4",
+        "poster": "assets/projects/christmasPoster01.png"
       },
       {
         "type": "video",
-        "src": "/assets/projects/christmasVideo02.mp4",
-        "poster": "/assets/projects/christmasPoster02.png"
+        "src": "assets/projects/christmasVideo02.mp4",
+        "poster": "assets/projects/christmasPoster02.png"
       }
     ],
     "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop", "Zbrush"],
@@ -612,13 +612,13 @@
         "es": "Narrativa visual y composición de la escena"
       }
     ],
-    "mainImage": "/assets/projects/halloween01.png",
+    "mainImage": "assets/projects/halloween01.png",
     "media": [
-      { "type": "image", "src": "/assets/projects/halloweenImg01.png" },
-      { "type": "image", "src": "/assets/projects/halloweenImg02.png" },
-      { "type": "image", "src": "/assets/projects/halloweenImg03.png" },
-      { "type": "image", "src": "/assets/projects/halloweenImg04.png" },
-      { "type": "image", "src": "/assets/projects/halloweenImg05.png" }
+      { "type": "image", "src": "assets/projects/halloweenImg01.png" },
+      { "type": "image", "src": "assets/projects/halloweenImg02.png" },
+      { "type": "image", "src": "assets/projects/halloweenImg03.png" },
+      { "type": "image", "src": "assets/projects/halloweenImg04.png" },
+      { "type": "image", "src": "assets/projects/halloweenImg05.png" }
     ],
     "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
     "category": "3D"
@@ -660,12 +660,12 @@
         "es": "Composición para impacto emocional"
       }
     ],
-    "mainImage": "/assets/projects/valentines01.png",
+    "mainImage": "assets/projects/valentines01.png",
     "media": [
-      { "type": "image", "src": "/assets/projects/valentinesImg01.png" },
-      { "type": "image", "src": "/assets/projects/valentinesImg02.png" },
-      { "type": "image", "src": "/assets/projects/valentinesImg03.png" },
-      { "type": "image", "src": "/assets/projects/valentinesImg04.png" }
+      { "type": "image", "src": "assets/projects/valentinesImg01.png" },
+      { "type": "image", "src": "assets/projects/valentinesImg02.png" },
+      { "type": "image", "src": "assets/projects/valentinesImg03.png" },
+      { "type": "image", "src": "assets/projects/valentinesImg04.png" }
     ],
     "tags": ["Blender", "Davinci Resolve", "Adobe Photoshop"],
     "category": "3D"

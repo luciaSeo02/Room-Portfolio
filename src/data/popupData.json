@@ -3,14 +3,14 @@
     "en": {
       "title": "Graduation",
       "text": "I graduated in Digital Creation, Animation and Video Games at the University of A Coruña.",
-      "image": "/assets/graduationPoster.png",
+      "image": "assets/graduationPoster.png",
       "linkText": "Learn more about me",
       "linkHref": "#about"
     },
     "es": {
       "title": "Graduación",
       "text": "Me gradué en Creación Digital, Animación y Videojuegos en la Universidad de A Coruña.",
-      "image": "/assets/graduationPoster.png",
+      "image": "assets/graduationPoster.png",
       "linkText": "Conoce más sobre mí",
       "linkHref": "#about"
     }
@@ -61,14 +61,14 @@
     "en": {
       "title": "3D Art",
       "text": "During my studies I developed a strong interest in 3D art. I love creating and sharing my projects on social media, and here you can explore my 3D-related work.",
-      "image": "/assets/projects/shinChan01.png",
+      "image": "assets/projects/shinChan01.png",
       "linkText": "View 3D Projects",
       "linkHref": "#projects"
     },
     "es": {
       "title": "Arte 3D",
       "text": "Durante mis estudios descubrí mi pasión por el arte 3D. Me encanta crear y compartir mis proyectos en redes sociales, y aquí puedes ver mi trabajo relacionado con 3D.",
-      "image": "/assets/projects/shinChan01.png",
+      "image": "assets/projects/shinChan01.png",
       "linkText": "Ver Proyectos 3D",
       "linkHref": "#projects"
     }

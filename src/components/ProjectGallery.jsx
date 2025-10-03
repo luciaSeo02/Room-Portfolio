@@ -4,6 +4,8 @@ import Video from "yet-another-react-lightbox/plugins/video";
 import "yet-another-react-lightbox/styles.css";
 import { Play } from "lucide-react";
 
+const getMediaSrc = (src) => `${import.meta.env.BASE_URL}${src}`;
+
 export default function ProjectGallery({ media = [], title }) {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
@@ -16,8 +18,10 @@ export default function ProjectGallery({ media = [], title }) {
     return (
       <div className="w-full mb-8">
         <video
-          src={media[0].src}
-          poster={media[0].poster || "/assets/projects/video-placeholder.png"}
+          src={getMediaSrc(media[0].src)}
+          poster={getMediaSrc(
+            media[0].poster || "assets/projects/video-placeholder.png"
+          )}
           controls
           className="w-full rounded-lg shadow aspect-video"
         />
@@ -39,14 +43,16 @@ export default function ProjectGallery({ media = [], title }) {
           >
             {item.type === "image" ? (
               <img
-                src={item.src}
+                src={getMediaSrc(item.src)}
                 alt={`${title} media ${i + 1}`}
                 className="w-full h-full object-cover"
               />
             ) : (
               <>
                 <img
-                  src={item.poster || "/assets/projects/video-placeholder.png"}
+                  src={getMediaSrc(
+                    item.poster || "assets/projects/video-placeholder.png"
+                  )}
                   alt={`${title} video thumbnail ${i + 1}`}
                   className="w-full h-full object-cover"
                 />
@@ -65,10 +71,10 @@ export default function ProjectGallery({ media = [], title }) {
         index={index}
         slides={media.map((item) =>
           item.type === "image"
-            ? { src: item.src }
+            ? { src: getMediaSrc(item.src) }
             : {
                 type: "video",
-                sources: [{ src: item.src, type: "video/mp4" }],
+                sources: [{ src: getMediaSrc(item.src), type: "video/mp4" }],
                 autoplay: true,
                 controls: true,
               }

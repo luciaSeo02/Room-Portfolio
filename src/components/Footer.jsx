@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <HashLink smooth to="/#hero" className="flex items-center">
           <img
-            src="/assets/logo03.png"
+            src="assets/logo03.png"
             alt="Lucía Seoane Logo"
             className="h-10 w-auto select-none pointer-events-none"
             draggable="false"

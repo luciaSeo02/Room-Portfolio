@@ -6,7 +6,7 @@ import "./style.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Room-Portfolio/">
       <App />
     </BrowserRouter>
   </StrictMode>

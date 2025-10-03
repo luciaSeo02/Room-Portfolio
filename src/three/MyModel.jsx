@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { a, useSpring } from "@react-spring/three";
 
 export function MyModel({ active3D, onObjectClick, ...props }) {
-  const { scene } = useGLTF("/models/roomWeb05.glb");
+  const { scene } = useGLTF("models/roomWeb05.glb");
   const modelRef = useRef();
 
   const clickableNames = [

@@ -18,7 +18,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         <HashLink smooth to="/#hero" className="flex items-center">
           <img
-            src="/assets/logo02.png"
+            src="assets/logo02.png"
             alt="Lucía Seoane Logo"
             className="h-10 w-auto select-none pointer-events-none"
             draggable="false"

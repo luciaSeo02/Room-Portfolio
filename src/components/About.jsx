@@ -65,7 +65,7 @@ export default function About() {
         <div className="flex flex-col items-center md:flex-row md:items-start md:gap-12">
           <div className="flex-shrink-0 mb-8 md:mb-0 md:mr-6">
             <img
-              src="/assets/me2.jpg"
+              src="assets/me2.jpg"
               alt="Lucía"
               className="w-60 h-60 md:w-80 md:h-80 rounded-full object-cover shadow-lg 
                      select-none pointer-events-none"
